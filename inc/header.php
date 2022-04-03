@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,3 +57,4 @@
             </div>
         </nav>   
     </header>
+    <?php include("tools.php"); ?>
