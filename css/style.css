@@ -156,7 +156,7 @@ nav {
      position: absolute;
      padding-top: 15px;
      text-align: left;
-     top: 80px;
+     top: 95px;
      width: 250px;
      min-height: 250px;
      background-color: white;
@@ -186,7 +186,7 @@ nav {
     position: absolute;
     display: none;
     width: 70vw;
-    top: 80px;
+    top: 130px;
     background-color: white;
     padding: 30px;
     border: var(--main-color) 1px solid;

@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/b4eff55874.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>School Learning System</title>
+    <title>The Connected App</title>
 </head>
 <body>
     <div class="container">
@@ -40,17 +40,17 @@
             </div>
             <div id="slide-menu-container" >
                 <ul class="slide-content">
-                    <li class="slide-item"><a class="down-arrow" href="">students</a>
+                    <li class="slide-item"><a class="down-arrow" href="">services</a>
                         <ul class="dd-slide-item">
-                            <li><a href="#">login</a></li>
-                            <li><a href="#">register</a></li>
-                            <li><a href="#">sign out</a></li>            
+                            <li><a href="#">food</a></li>
+                            <li><a href="#">housing</a></li>
+                            <li><a href="#">mental health</a></li>            
                         </ul>
                     </li>
-                    <li class="slide-item"><a href="">teachers</a></li>
-                    <li class="slide-item"><a href="">parents</a></li>
+                    <li class="slide-item"><a href="">shop</a></li>
+                    <li class="slide-item"><a href="">about</a></li>
                     <li class="slide-item"><a  class="border-black" href="">register</a></li>
-                    <li class="slide-item"><a class="border-blue" href="">login</a></li>
+                    <li class="slide-item"><a class="border-blue" href="">sign in</a></li>
                 </ul>
             </div>
         </nav>   
