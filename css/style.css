@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
@@ -411,10 +411,16 @@ footer {
     background-color: #45a049;
   }
   
-  .container {
+  .form-container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+
+  .form-heading {
+      text-align: center;
+      padding: 5px 0px 20px 0px;
+      text-transform: uppercase;
   }
   
   .label-column {

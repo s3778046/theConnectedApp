@@ -8,15 +8,19 @@
             </div>
 
             <div id="users" class="tabcontent user">
-                <div class="container">
-                    <h2>User Registration Form</h2>
+                <div class="form-container">
+                    <div class="form-heading">
+                        <h2>User Registration Form</h2>
+                    </div>
                     <?php include("inc/userRegistration.php"); ?>
                 </div>
             </div>
 
             <div id="services" class="tabcontent">
-                <div class="container">
-                    <h2>Service Provider Registration Form</h2>
+                <div class="form-container">
+                    <div class="form-heading">
+                        <h2>Service Provider Registration Form</h2>
+                    </div>
                     <?php include("inc/servicesRegistration.php"); ?>
                 </div>
             </div>
