@@ -1,4 +1,8 @@
 
+//============================
+//  Open and close side menu
+//============================
+
 function toggleMenu() {
     var x = document.getElementById("slide-menu-container");
     if(x.style.display === "block") {
@@ -9,6 +13,9 @@ function toggleMenu() {
 }
 
 
+//==================================
+//  Open and close registration tabs
+//==================================
 
 function openTab(evt, userType) {
     var i, tabcontent, tablinks;
