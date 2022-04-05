@@ -1,23 +1,19 @@
 <?php   include("./inc/header.php");  ?>
-
 <main>   
     <?php
-        
+
         try {
-            $stmt = $conn->prepare("SELECT * FROM users");
+            $sql ='SELECT * FROM users';
+            $stmt = $conn->prepare($sql);
             $stmt->execute();
-
-            // set the resulting array to associative
-            $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
-
-            while ($row = $stmt->fetch(PDO::FETCH_NUM, PDO::FETCH_ORI_NEXT)) {
-                $data = $row[0] . "\t" . $row[1] . "\t" . $row[2] . "\n";
-                print $data;
-            }
-        
+            $users = $stmt->fetchAll();
             
-        
-            
+  
+           foreach($users as $user) {
+                $fname = $user['fname'];
+                $lname = $user['lname'];
+               echo "$fname " . "$lname" . "<br>";
+           }
         }
         catch(PDOException $e) {
             echo "Error: " . $e->getMessage();
@@ -26,7 +22,6 @@
         echo "</table>";
     ?>
 </main>
-
 <?php   include("./inc/footer.php");  ?>
 
 

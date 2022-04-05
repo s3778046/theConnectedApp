@@ -31,7 +31,7 @@
                 <li class="menu-item"><a href="">shop</a></li>
                 <li class="menu-item"><a href="">about</a></li>
                 <li class="menu-item"><a href="">sign in</a></li>
-                <li class="menu-item"><a href="">register</a></li>
+                <li class="menu-item"><a href="./register.php">register</a></li>
             </ul>
             <div class="hb-menu" onclick="toggleMenu()">
                 <svg class="hb-menu" viewBox="0 0 100 80" width="30" height="30">
